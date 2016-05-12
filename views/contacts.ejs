@@ -37,13 +37,13 @@
         <table class="table table-responsive">
             <thead>
                 <tr>
-                    <th ng-click="orderBy('name')" class="cursorPointer">Name
+                    <th ng-click="orderBy('name')" class="cursorPointer text-center">Name
                         <span ng-class="getOrderByClass('name')"></span>
                     </th>
-                    <th ng-click="orderBy('email')" class="cursorPointer">Email Address
+                    <th ng-click="orderBy('email')" class="cursorPointer text-center">Email Address
                         <span ng-class="getOrderByClass('email')"></span>
                     </th>
-                    <th ng-click="orderBy('phoneNumber')" class="cursorPointer">Phone Number
+                    <th ng-click="orderBy('phoneNumber')" class="cursorPointer text-center">Phone Number
                         <span ng-class="getOrderByClass('phoneNumber')"></span>
                     </th>
                     <th></th>
@@ -51,9 +51,9 @@
             </thead>
             <tbody>
                 <tr ng-repeat="contact in list | filter:searchContact | orderBy : orderByColumn : reverseOrderBy">
-                    <td>{{contact.name | uppercase}}</td>
-                    <td>{{contact.email}}</td>
-                    <td>{{contact.phoneNumber}}</td>
+                    <td class='text-center'>{{contact.name | uppercase}}</td>
+                    <td class='text-center'>{{contact.email}}</td>
+                    <td class='text-center'>{{contact.phoneNumber}}</td>
                     <td>
                         <button class="btn btn-info" ng-click="viewContact(contact)" data-toggle="modal" data-target="#viewContact">View</button>
                         <button class="btn btn-info" ng-click="editContact(contact)" data-toggle="modal" data-target="#addContact">Edit</button>
