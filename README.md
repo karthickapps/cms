@@ -8,3 +8,4 @@ Contact Management System is used to add, edit, view, delete, search contact det
 * Install dependencies - **npm install**
 * Run with port - **PORT=6644 forever start app.js** || **PORT=6633 node app.js**
 * Run without port - **forever start app.js** || **node app.js**
+* Run **npm start** will start the application with 6633 port
