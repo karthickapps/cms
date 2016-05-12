@@ -47,3 +47,8 @@
 .modal-content{
 	border:10px solid;
 }
+@media(min-width:0px) and (max-width:580px){
+	body{
+		width: 600px;
+	}
+}
