@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CMS</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/libs/css/bootstrap.min.css">
+        <script src="libs/js/jquery.min.js"></script>
+        <script src="libs/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="text-center">Register</h3>
+                </div>
+                <div class="modal-body">
+                    <form role="form" name="myForm" action="/register" method="post" validate>
+                       <div class="form-group" >
+                        <label for="username"></span>Username:</label>
+                            <input type="text" class="form-control" name="username" id="username" placeholder="Enter username" required> 
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password:</label>
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Enter password" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" ng-disabled="register.all"  class="btn btn-success">Register</button>
+                            <a href="/" class="btn btn-success" role="button">Login</a>
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

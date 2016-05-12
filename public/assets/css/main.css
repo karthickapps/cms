@@ -1,0 +1,49 @@
+.header{
+	background-color:#660000;
+	color:#FFFFFF;
+}
+.header > div{
+	padding: 15px;
+	font-weight: bold;
+}
+.logoutBtn, .logoutBtn:hover{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.addContactBtn{
+	margin: 10px 10px 10px 0px;
+}
+.contactList{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.error{
+	color: #FF0000;
+}
+.search{
+	margin-right: 10px;
+}
+.sortAsc{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #000000;
+}
+.sortDsc{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #000000;
+}
+.cursorPointer{
+	cursor: pointer;
+}
+.modal-content{
+	border:10px solid;
+}

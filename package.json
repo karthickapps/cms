@@ -1,0 +1,24 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "Contact management system is used to manage address book",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthickapps/cms.git"
+  },
+  "keywords": [
+    "cms",
+    "addressbook",
+    "contactmanager"
+  ],
+  "author": "karthick.k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthickapps/cms/issues"
+  },
+  "homepage": "https://github.com/karthickapps/cms#readme"
+}
