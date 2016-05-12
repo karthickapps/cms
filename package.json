@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/karthickapps/cms#readme",
   "dependencies": {
+    "asyn": "0.0.1",
     "body-parser": "^1.15.1",
     "cookie-parser": "^1.4.1",
     "ejs": "^2.4.1",
