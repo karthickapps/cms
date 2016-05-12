@@ -39,16 +39,13 @@ var updateContact = function(req, cb){
 	if(data._id){
 		Contact.update({_id:data._id}, data, function(err, data){
 	        if(err){
-	        	res.status(400);
-	        	return res.json({data : null, message : "Error while update contact"});
+	        	return cb("Error while update contact");
 	        }else{
-		        res.status(200);
-		        return res.json({data : data, message : null});
+		        return cb(null, data);
 	        }
 	    });
 	}else{
-		res.status(400);
-    	return res.json({data : null, message : "Id is missing"});
+		return cb("Id is missing");
 	}
 };
 
